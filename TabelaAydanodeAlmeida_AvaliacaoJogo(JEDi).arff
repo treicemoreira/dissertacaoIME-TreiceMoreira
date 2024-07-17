@@ -1,0 +1,61 @@
+@relation TabelaAydanodeAlmeida_AvaliacaoJogo(JEDi)
+
+@attribute qtdAcertosP1 {Medio,Alto}
+@attribute AutoAvaliacaoP1 {Casual,Avancado,Proplayer,Iniciante,Noob}
+@attribute AvaliacaoJogoP1 {Proplayer,Avancado,Casual,Iniciante}
+@attribute qtdAcertosP2 {Medio,Alto,Baixo}
+@attribute AutoAvaliacaoP2 {Avancado,Iniciante,Proplayer,Casual,Noob}
+@attribute AvaliacaoJogoP2 {Proplayer,Avancado,Iniciante}
+@attribute CapacidadeCritica {Igual,Aumentou,Diminuiu}
+
+@data
+Medio,Casual,Proplayer,Medio,Avancado,Proplayer,Igual
+Medio,Avancado,Avancado,Medio,Iniciante,Avancado,Igual
+Medio,Proplayer,Avancado,Alto,Avancado,Avancado,Igual
+Medio,Casual,Proplayer,Medio,Proplayer,Proplayer,Igual
+Medio,Iniciante,Proplayer,Medio,Avancado,Proplayer,Igual
+Medio,Casual,Avancado,Medio,Avancado,Avancado,Igual
+Medio,Iniciante,Avancado,Medio,Casual,Avancado,Igual
+Medio,Casual,Avancado,Medio,Avancado,Avancado,Igual
+Medio,Iniciante,Avancado,Medio,Proplayer,Avancado,Igual
+Medio,Iniciante,Proplayer,Medio,Avancado,Proplayer,Igual
+Medio,Casual,Avancado,Medio,Casual,Avancado,Igual
+Medio,Casual,Proplayer,Alto,Proplayer,Proplayer,Igual
+Medio,Casual,Avancado,Medio,Avancado,Avancado,Igual
+Alto,Iniciante,Proplayer,Medio,Iniciante,Proplayer,Igual
+Medio,Casual,Avancado,Medio,Avancado,Avancado,Igual
+Alto,Casual,Avancado,Medio,Proplayer,Avancado,Igual
+Medio,Iniciante,Proplayer,Medio,Avancado,Proplayer,Igual
+Alto,Noob,Proplayer,Medio,Iniciante,Proplayer,Igual
+Medio,Avancado,Proplayer,Medio,Casual,Proplayer,Igual
+Medio,Iniciante,Avancado,Alto,Iniciante,Avancado,Igual
+Medio,Casual,Avancado,Medio,Iniciante,Avancado,Igual
+Medio,Casual,Proplayer,Medio,Casual,Proplayer,Igual
+Alto,Noob,Avancado,Medio,Noob,Avancado,Igual
+Medio,Casual,Proplayer,Medio,Iniciante,Proplayer,Igual
+Medio,Iniciante,Avancado,Medio,Iniciante,Avancado,Igual
+Medio,Proplayer,Avancado,Medio,Proplayer,Proplayer,Aumentou
+Medio,Proplayer,Proplayer,Medio,Avancado,Proplayer,Igual
+Medio,Casual,Proplayer,Medio,Noob,Proplayer,Igual
+Medio,Iniciante,Proplayer,Medio,Casual,Proplayer,Igual
+Medio,Casual,Avancado,Medio,Casual,Avancado,Igual
+Medio,Avancado,Casual,Medio,Iniciante,Avancado,Aumentou
+Medio,Avancado,Proplayer,Medio,Noob,Proplayer,Igual
+Medio,Iniciante,Proplayer,Alto,Avancado,Avancado,Diminuiu
+Medio,Casual,Avancado,Medio,Avancado,Avancado,Igual
+Medio,Noob,Proplayer,Medio,Casual,Proplayer,Igual
+Medio,Iniciante,Iniciante,Baixo,Proplayer,Iniciante,Igual
+Medio,Iniciante,Avancado,Medio,Proplayer,Proplayer,Aumentou
+Medio,Avancado,Avancado,Medio,Casual,Avancado,Igual
+Medio,Noob,Avancado,Medio,Iniciante,Avancado,Igual
+Alto,Casual,Avancado,Medio,Avancado,Proplayer,Aumentou
+Medio,Casual,Proplayer,Medio,Noob,Proplayer,Igual
+Medio,Iniciante,Proplayer,Medio,Casual,Proplayer,Igual
+Medio,Proplayer,Proplayer,Medio,Iniciante,Proplayer,Igual
+Medio,Avancado,Avancado,Medio,Iniciante,Avancado,Igual
+Medio,Casual,Proplayer,Medio,Proplayer,Avancado,Diminuiu
+Medio,Casual,Avancado,Medio,Avancado,Avancado,Igual
+Medio,Iniciante,Proplayer,Alto,Avancado,Proplayer,Igual
+Medio,Iniciante,Proplayer,Medio,Proplayer,Avancado,Diminuiu
+Alto,Casual,Avancado,Medio,Iniciante,Proplayer,Aumentou
+Medio,Avancado,Proplayer,Medio,Iniciante,Proplayer,Igual

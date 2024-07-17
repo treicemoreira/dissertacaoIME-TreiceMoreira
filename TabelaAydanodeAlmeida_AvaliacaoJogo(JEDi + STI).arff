@@ -1,0 +1,59 @@
+@relation 'TabelaAydanodeAlmeida_AvaliacaoJogo(JEDi + STI)'
+
+@attribute qtdAcertosP1 {Alto,Medio,Baixo}
+@attribute qtdAcertosP2 {Medio,Alto}
+@attribute AutoAvaliacao {Avancado,Iniciante,Proplayer,Noob,Casual}
+@attribute AvaliacaoJogo {Avancado,Proplayer,Casual,Iniciante}
+@attribute CapacidadeCritica {Igual,Aumentou,Diminuiu}
+
+@data
+Alto,Medio,Avancado,Avancado,Igual
+Medio,Alto,Avancado,Proplayer,Igual
+Medio,Medio,Iniciante,Avancado,Igual
+Baixo,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Baixo,Medio,Iniciante,Avancado,Igual
+Medio,Medio,Noob,Avancado,Igual
+Medio,Medio,Avancado,Avancado,Igual
+Medio,Medio,Avancado,Avancado,Igual
+Medio,Medio,Avancado,Avancado,Igual
+Medio,Medio,Iniciante,Avancado,Igual
+Medio,Medio,Proplayer,Avancado,Igual
+Baixo,Medio,Casual,Casual,Aumentou
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Proplayer,Avancado,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Iniciante,Proplayer,Igual
+Medio,Medio,Iniciante,Proplayer,Igual
+Medio,Medio,Casual,Proplayer,Igual
+Medio,Medio,Casual,Avancado,Igual
+Medio,Medio,Iniciante,Proplayer,Igual
+Medio,Medio,Noob,Avancado,Igual
+Medio,Medio,Iniciante,Avancado,Igual
+Alto,Medio,Casual,Avancado,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Noob,Proplayer,Igual
+Medio,Medio,Casual,Avancado,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Casual,Proplayer,Igual
+Medio,Medio,Casual,Proplayer,Igual
+Medio,Medio,Casual,Proplayer,Igual
+Medio,Medio,Proplayer,Proplayer,Igual
+Medio,Medio,Avancado,Proplayer,Aumentou
+Medio,Medio,Proplayer,Proplayer,Aumentou
+Medio,Medio,Casual,Proplayer,Aumentou
+Baixo,Medio,Avancado,Avancado,Aumentou
+Medio,Medio,Casual,Avancado,Igual
+Medio,Medio,Casual,Avancado,Igual
+Medio,Medio,Casual,Avancado,Diminuiu
+Medio,Medio,Casual,Proplayer,Igual
+Medio,Medio,Iniciante,Proplayer,Igual
+Medio,Medio,Iniciante,Proplayer,Aumentou
+Medio,Medio,Casual,Avancado,Igual
+Medio,Medio,Casual,Proplayer,Igual
+Alto,Medio,Iniciante,Proplayer,Igual
+Medio,Medio,Iniciante,Avancado,Igual
+Medio,Medio,Casual,Proplayer,Igual
+Medio,Medio,Casual,Iniciante,Diminuiu
